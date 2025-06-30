@@ -2,6 +2,8 @@
 
 An eye health application that follows the 20-20-20 rule: Every 20 minutes, look at something 20 feet away for at least 20 seconds.
 
+**Note: This script is built as a personal/fun project. Feel free to log issues if you find any, though don't expect them to get resolved any time soon. Feel free to fork the project and customize/fix issues to your liking.**
+
 ## Features
 
 - Uses your webcam to track whether you're looking at the screen
@@ -49,5 +51,7 @@ This application does not store or transmit any video data. All processing is do
 You can modify the settings in `config.json` to customize:
 - Screen time duration before breaks
 - Break duration
-- Off-screen detection threshold
+- Off-screen detection time threshold
 - Notification preferences 
+
+This should also be in the config, but if you find issues with the tool not properly detecting or triggering too soon - for example you have a very large screen, try adjusting the values on lines 134 to 137 in `eye_tracker.py`.
