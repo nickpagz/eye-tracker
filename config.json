@@ -1,0 +1,9 @@
+{
+  "max_screen_time_minutes": 20,
+  "min_break_duration_seconds": 20,
+  "off_screen_threshold_seconds": 15,
+  "use_sound_notifications": true,
+  "camera_index": 0,
+  "log_data": true,
+  "log_file": "eye_tracker_logs.json"
+} 
