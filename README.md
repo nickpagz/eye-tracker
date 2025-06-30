@@ -40,6 +40,8 @@ Make sure your virtual environment is activated, then run:
 python main.py
 ```
 
+You will likely get a permissions error on first run (on a mac). You should see a popup asking for access to your camera. Click "Allow" and run the script again.
+
 The app will run in the background and monitor your eye activity. When you've been looking at the screen for 20 minutes, it will notify you to take a break.
 
 ## Privacy
